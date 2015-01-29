@@ -1,3 +1,3 @@
-var iceCream = new Array ("Coffee" , "Dulce de Leche" , "Vanilla");
+var iceCream = ["Coffee" , "Dulce de Leche" , "Vanilla"];
 
-var mostFavorite = "Chocolate";
+iceCream.push ("Chocolate");
