@@ -1,37 +1,42 @@
-var fortyFour = {};
-fortyFour.firstName = "Barack";
-fortyFour.lastName = "Obama";
-fortyFour.termLength = 2;
-fortyFour.party = "Democratic";
-fortyFour.yearsOfPresidency = 8;
+var fortyFour = {
+    firstName: "Barack",
+    lastName: "Obama",
+    termLength: 2,
+    party: "Democratic",
+    yearsOfPresidency: 8
+};
 
-var fortyThree = {};
-fortyThree.firstName = "George";
-fortyThree.lastName = "Bush";
-fortyThree.termLength = 2;
-fortyThree.party = "Republican";
-fortyThree.yearsOfPresidency = 8;
+var fortyThree = {
+    firstName: "George",
+    lastName: "Bush",
+    termLength: 2,
+    party: "Republican",
+    yearsOfPresidency: 8
+};
 
-var fortyTwo = {};
-fortyTwo.firstName = "Bill";
-fortyTwo.lastName = "Clinton";
-fortyTwo.termLength = 2;
-fortyTwo.party = "Democratic";
-fortyTwo.yearsOfPresidency = 8;
+var fortyTwo = {
+    firstName: "Bill",
+    lastName: "Clinton",
+    termLength: 2,
+    party: "Democratic",
+    yearsOfPresidency: 8
+};
 
-var fortyOne = {};
-fortyOne.firstName = "George"
-fortyOne.lastName = "Bush"
-fortyOne.termLength = 1;
-fortyOne.party = "Republican";
-fortyOne.yearsOfPresidency = 4;
+var fortyOne = {
+    firstName: "George",
+    lastName: "Bush",
+    termLength: 1,
+    party: "Republican",
+    yearsOfPresidency: 4
+};
 
-var forty = {};
-forty.firstName = "Ronald";
-forty.lastName = "Reagan";
-forty.termLength = 2;
-forty.party = "Republican";
-forty.yearsOfPresidency = 8;
+var forty = {
+    firstName: "Ronald",
+    lastName: "Reagan",
+    termLength: 2,
+    party: "Republican",
+    yearsOfPresidency: 8
+};
 
 
 var presidents = [fortyFour, fortyThree , fortyTwo , fortyOne, forty];
