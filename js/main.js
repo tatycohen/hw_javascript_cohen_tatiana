@@ -25,11 +25,11 @@ numba ("university");
 
 var value = "Cast Away";
 
-function inception (value , callback) {
+function inception( callback, value ) {
 	callback(value);
 }
 
-inception (value , function() {
+inception( function() {
 	console.log ( value + " is a fantastic movie")
-});
+}, value );
 
