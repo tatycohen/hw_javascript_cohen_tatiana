@@ -1,3 +1,3 @@
-var iceCream = ["Coffee" , "Dulce de Leche" , "Vanilla"];
+var iceCream = ["Coffee", "Dulce de Leche", "Vanilla"];
 
-iceCream.push ("Chocolate");
+iceCream.push("Chocolate");
